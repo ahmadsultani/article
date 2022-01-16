@@ -1,0 +1,61 @@
+body {
+    background-color: rgba(191, 230, 245, 0.979);
+	font: 16px sans-serif;
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+	padding: 30px;
+	background-color: rgba(255, 255, 255);
+}
+
+.header .judul {
+	font-weight: bold;
+	font-size: 40px;
+	margin: auto;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-left: 0;
+	margin-right: 30px;
+	padding: 8px;
+	width: 55px;
+	text-align: center;
+	border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ul {
+	margin-left: 0;
+}
+
+.header a {
+	text-decoration: none;
+	color: black;
+}
+
+.header li:hover {
+	box-shadow: 0 5px rgba(0, 0, 0, 0.116);
+	transform: scale(1.1);
+}
+
+.header li:active {
+
+	transform: translateY(4px);
+}
+
+.product {
+	background-image: url(img.jpg);
+	background-size: cover;
+	height: 300px;
+	margin-top: 30px;
+	border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content {
+	margin-top: 30px;
+	text-align: justify;
+}
