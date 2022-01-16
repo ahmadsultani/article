@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(191, 230, 245, 0.979);
+    background-color: #DAC79C;
 	font: 16px sans-serif;
 }
 
@@ -52,7 +52,7 @@ ul {
 	height: 300px;
 	margin-top: 30px;
 	border-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .content {
