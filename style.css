@@ -42,7 +42,6 @@ body {
 }
 
 .header li:active {
-
 	transform: translateY(4px);
 }
 
