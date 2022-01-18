@@ -1,9 +1,14 @@
 body {
     background-color: #DAC79C;
-	font: 16px sans-serif;
+	font: 16px/24px sans-serif;
+	display: flex;
 }
 
 .container {
+	margin: auto;
+}
+
+.main {
 	width: 800px;
 	margin: auto;
 	padding: 30px;
@@ -18,8 +23,6 @@ body {
 
 .header ul li {
 	display: inline-block;
-	margin-left: 0;
-	margin-right: 30px;
 	padding: 8px;
 	width: 55px;
 	text-align: center;
@@ -28,7 +31,8 @@ body {
 }
 
 .header ul {
-	margin-left: 0;
+	display: inline-flex;
+	gap: 30px;
 }
 
 .header a {
@@ -49,7 +53,7 @@ body {
 	background-image: url(img.jpg);
 	background-size: cover;
 	height: 300px;
-	margin-top: 30px;
+	margin-top: 10px;
 	border-radius: 20px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
 }
@@ -57,4 +61,52 @@ body {
 .content {
 	margin-top: 30px;
 	text-align: justify;
+}
+
+.content h2 {
+	font-size: 28px;
+}
+
+.footer {
+	display: inline-flex;
+	margin-top: -20px;
+	padding: 30px;
+	width: 800px;
+	height: 100px;
+	font-weight: 700;
+	background-color: rgb(177, 66, 66);
+	color: white;
+	justify-content: center;
+}
+
+.img a {
+	text-decoration: none;
+	background-color: white;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	padding: 5px;
+	border-radius: 25px;
+	color: black;
+}
+
+.img {
+	justify-content: center;
+	display: inline-flex;
+	gap: 20px;
+	align-items: center;
+	text-align: center;
+}
+
+.icon {
+	align-items: center;
+	margin-top: 9px;
+}
+
+.ig, .wa {
+	margin-top: 6px;
+}
+
+.img a:hover {
+	transform: scale(1.1);
 }
